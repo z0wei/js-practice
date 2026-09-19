@@ -1,0 +1,12 @@
+let a = prompt('Введите число 1:');
+let b = prompt('Введите число 2:');
+console.log('числа до преобразования:', typeof a, typeof b);
+a = Number(a);
+b = Number(b);
+console.log('числа после преобразования:', typeof a, typeof b);
+console.log('Вычисления с числами:');
+console.log('Сумма:', a + b);
+console.log('Разность:', a - b);
+console.log('Произведение:', a * b);
+console.log('Частное:', a / b);
+console.log('Конец вычислений.');
