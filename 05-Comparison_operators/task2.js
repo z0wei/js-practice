@@ -1,0 +1,15 @@
+console.log('1:', 5 > 3);              // true
+console.log('2:', 5 == '5');           // true
+console.log('3:', 5 === '5');          // false
+console.log('4:', 0 == false);         // true
+console.log('5:', 0 === false);        // false
+console.log('6:', null == undefined);  // true
+console.log('7:', null === undefined); // false
+console.log('8:', null >= 0);          // true
+console.log('9:', null > 0);           // false
+console.log('10:', undefined > 0);     // false
+console.log('11:', 'Я' > 'А');         // true
+console.log('12:', 'a' > 'A');         // true
+console.log('13:', '' == false);       // true
+console.log('14:', '' === false);      // false
+console.log('15:', NaN == NaN);        // false
